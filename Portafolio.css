@@ -7,7 +7,15 @@ div h1{
 div h2{
     color: blue;
     font-size: 20px;
-    font-style: oblique;
+    font-style: oblique;   
     
-    
+}
+
+.fondo{
+    width: 1346px;
+    height: 600px;
+    background: url('imagenes/Fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
