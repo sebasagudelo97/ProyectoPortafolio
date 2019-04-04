@@ -1,6 +1,8 @@
-.{
+*{
     padding: 0;
     margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;  
 }
 div h1{
     color: red;
@@ -8,16 +10,20 @@ div h1{
     font-style: oblique;
     font-variant: inherit;
 }
+
 div h2{
     color: blue;
     font-size: 20px;
     font-style: oblique;   
     
 }
-
+.imgfondo{
+    margin: 20px 0px;
+}
 .fondo{
-    width: 1346px;
-    height: 600px;
+    float: left;
+    width: 100%;
+    height: 500px;
     background: url('imagenes/Fondo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,29 +36,83 @@ div header ul li a:hover{
     text-decoration: none;
 }
 
-.botones{
-    margin: 20px 0;
-   
+.Referencias {
+    list-style: none;
+    padding: 0;
+    background: #092327;
+    border-radius: 3px;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto auto;
 }
-
-.btn_paginaweb:hover , .btn_appsoftware:hover{
-opacity: .8;
-}
-
-.btn_paginaweb ,  .btn_appsoftware {
-    background: #32021f;
-    color: #fff;
-    font-size: 16px;
-    text-decoration: none;
-    padding: 15px 20px;
+.Referencias li {
     display: inline-block;
-    margin: 0px 10px;
-    border-radius: 100px;
+    text-align: right;
+}
 
+.Referencias li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    
+}
+
+.Referencias li a:hover{
+    background: #00BCD4;    
 }
 
 
+.formulario {
+    background: #efeffb;
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+}
 
+.formulario input{
+    display: block;
+}
 
+.formulario input[type = 'text'],
+.formulario input[type = 'email'],
+.formulario textarea{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border: 1px solid #226fc1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
 
+.formulario textarea{
+    min-height: 120px;
+    max-height: 300px;
+    min-width: 100%;
+    max-width: 100%;
+}
 
+.formulario input[type = 'text']:focus,
+.formulario input[type = 'email']:focus,
+.formulario textarea:focus{
+    border:  2px solid #4fb560;
+}
+
+.formulario input[type = 'submit']{
+    width: 200px;
+    margin: 0 auto;
+    background: none;
+    border: 1px solid #4bf560;
+    color: #4bf560;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+.formulario input[type = 'submit']:hover{
+    background: #4fb560;
+    color: #fff;
+}
