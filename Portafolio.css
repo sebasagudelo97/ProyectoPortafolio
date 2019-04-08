@@ -4,17 +4,35 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;  
 }
-div h1{
-    color: red;
+
+.Titulo h1{
+    list-style: none;
+    background: yellow;
+    text-align: center;
+    cursor: pointer;
+    
+    
+}
+.BR {
+    color: #092327;
     font-size: 40px;
-    font-style: oblique;
+    font-style: obslique;
     font-variant: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.TS{
+    color: #092327;
+    font-size: 18px;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 div h2{
     color: blue;
     font-size: 20px;
-    font-style: oblique;   
+    font-style: oblique;
+    text-align: center;
     
 }
 .imgfondo{
@@ -41,7 +59,7 @@ div header ul li a:hover{
     padding: 0;
     background: #092327;
     border-radius: 3px;
-    width: 90%;
+    width: 100%;
     max-width: 1000px;
     margin: auto auto;
 }
